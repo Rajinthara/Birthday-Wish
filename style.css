@@ -4,7 +4,7 @@ body {
     justify-content: center;
     height:100vh;
     background-color: #00bbf9;
-    background-image: url("C:\\Users\\rajinthara\\OneDrive - Abans PLC\\Desktop\\Birthday Card\\download.jpg");
+    background-image: url("C:\\Users\\rajinthara\\OneDrive - Abans PLC\\Desktop\\Birthday Card\\Background Image.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -17,6 +17,7 @@ body {
     transform-style: preserve-3d;
     transform: perspective(2500px);
     transition: 4s;
+    opacity:80%
   }
   .birthdayCard:hover {
       transform: perspective(2500px) rotate(5deg);
@@ -39,7 +40,7 @@ body {
   }
   .cardFront {
     position: relative;
-    background-color: #fff;
+    background-color: #3e96d4;
     width: 500px;
     height:650px;
     overflow: hidden;
@@ -50,9 +51,10 @@ body {
   .happy, .toyou {
     position: relative;
     font-family:'Gill Sans MT';
+    color:#070ffb;
     text-align: center;
     backface-visibility: hidden;
-    font-size: 30px; 
+    font-size: 70px;
   }
   .happy {
     top:198px;
@@ -63,7 +65,8 @@ body {
   .bday {
     position: relative;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 35px;
+    font-size: 70px;
+    color:#070ffb;
     text-align: center;
     top:163px;
   }
@@ -198,8 +201,9 @@ body {
   }
   .wishes {
     position: relative;
-    top:-100px;
+    top:-160px;
     margin: 25px;
+    font-size: 30px;
   }
   p {
     font-family: 'Brush Script MT', cursive;
